@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+}
+.titulo{
+	padding-top: 20px;
+}
+.campo{
+	margin-top: 10px;
+}
+.campo label{
+	width: 10%;
+	font-weight: 600;
+}
+.campo input{
+	width:75%;
+	padding: 3px 5px;
+	border-color: 1px solid #000;
+}
+.campo input[name=cpf]{
+	width:40%;
+}
+.table .thead-light th{
+	background-color: #d4d8dc;
+}
+.tbl tr td input{
+	width: 100%;
+	padding: 0px 5px;
+	border-color: transparent;
+	text-align: center;
+    background-color: transparent;
+}
+.btnSubmit{
+	position: relative;
+    top: -100px;
+	left: 20%;
+	padding: 5px 15px;
+}
