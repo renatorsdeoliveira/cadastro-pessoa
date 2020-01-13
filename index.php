@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    require_once('conteudo-fixo/header.php');
+
     require_once('conteudo-fixo/header.php');
 ?>
 

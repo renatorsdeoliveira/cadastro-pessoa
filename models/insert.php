@@ -40,10 +40,10 @@
 
     if(  $ultimo_id && $insetPessoas == true){
         $_SESSION['msg'] = "<p style='color:green;font-size: 18px;'> Usuario cadastrado com sucesso</p>";
-        header('Location: http://localhost/cadastro-pessoa/');
+        header('Location: ../');
     }else{
         $_SESSION['msg'] = "<p style='color:red;font-size: 18px;'>Usuario não cadastrado</p>";
-        header('Location: http://localhost/cadastro-pessoa/');
+        header('Location: ../');
     }
 
 
